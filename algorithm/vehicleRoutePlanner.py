@@ -1104,7 +1104,7 @@ class RoutePlanner(threading.Thread):
 
         return
 
-    def clean_path(self, station=''): # Mike: 2021/03/04
+    def clean_path(self, station=''): 
 
         '''if not self.is_moving: # Mike: 2021/08/14
             return'''
